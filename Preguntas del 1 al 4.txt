@@ -1,0 +1,21 @@
+========================================================================
+1. ¿Cuál sería la URL?
+R/  https://usuario:contraseña@jarroba.com:80/artiiculos/articulos
+/unarticulo/?id123&busqueda=java#commet-12345
+========================================================================
+2. ¿Cuál sería la URI?
+R/  ?id123&busqueda=java#commet-12345
+========================================================================
+3. ¿Cuál es el endpoint?
+
+R/ Es un lenguaje de programación asincrono. Lo que quiere 
+decir esto es que al ejecutar código JavaScript el hilo de 
+ejecución continuará a pesar de encontrarse en situaciones 
+en las que no obtenga un resultado inmediatamente.
+========================================================================
+
+4. ¿Qué información nos entrega el objeto JSON? 
+    ¿Llega como Array o como objeto?
+
+R/ El objeto JSON llega tanto como objeto y como arreglo
+========================================================================

@@ -1,0 +1,52 @@
+*{
+    font-family: "Oswald", sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+/* VARIABLES COLORES  */
+:root{
+    --colorBlack: #232323;
+    --colorWhite: #b0b0b0;
+    --colorWhiteTwo: #8b8a8a;
+    --colorGreen: #17FF00;
+    --colorGray: #404243;
+    --colorBlue: #0040FF;
+}
+
+body{
+    background-color: var(--colorBlack);
+    font-size: 16px;
+}
+
+header{
+    width: 100%;height: 10vh;
+    background-color: var(--colorGray);color: var(--colorWhite);
+    display: flex; justify-content:center;align-items: center;
+}
+
+main{
+    padding-top: 5vh; padding: 50px;
+    display: flex;gap: 50px;justify-content: center;
+    align-items: center; flex-wrap: wrap;
+}
+
+
+.cards{
+    width:230px;height: 310px;
+    background-color: var(--colorWhite);
+    display: flex;justify-content: center;
+    align-items: center; flex-direction: column;
+    box-shadow: 0 0 15px #030303;
+    padding-bottom: 15px;
+}
+
+img{width:100%;height: 40vh;overflow: hidden;}
+
+.cards p{
+    padding: 10px;
+    color: #404243;
+}
